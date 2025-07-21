@@ -30,8 +30,7 @@ Fique à vontade para enviar sugestões e ajudar a tornar esse site ainda melhor
 - 🐍 Python  
 - 🌐 Django  
 - 🎨 CSS  
-- 📄 HTML (via templates Django)  
-
+- 📄 HTML 
 ---
 
 ## ⚙️ Como rodar o projeto
