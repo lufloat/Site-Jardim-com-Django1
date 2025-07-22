@@ -9,14 +9,6 @@
   }
 
 
-  .logo_input button {
-    background: none;         /* remove o fundo padrão */
-    border: none;             /* remove a borda padrão */
-    cursor: pointer;          /* cursor de clique */
-    position: absolute;  
-    margin-left: 30em;     /* para posicionar sobre o input */
-  }
-
 .barra_topo img{
     bottom: -10em;
     position: relative;
@@ -78,7 +70,7 @@
   background-repeat: no-repeat;
   background-size: 6em;
   background-position: 33em;
-  border-color: #F46510;
+  border-color: #ffffff;
   border-width: medium;
   border-radius: 20px;
   width: 30em;

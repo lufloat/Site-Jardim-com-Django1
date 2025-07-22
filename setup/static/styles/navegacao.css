@@ -24,8 +24,7 @@
 
 
 .navegacao-home:hover {
-    color: #73ff00; /* cor mais escura no hover */
-    text-decoration: underline;
-    background-color: #00ff2a;
+    
+    background-color: #f26522;
     opacity: 90%;
 }

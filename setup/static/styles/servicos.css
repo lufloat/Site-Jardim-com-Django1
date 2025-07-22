@@ -1,37 +1,61 @@
-.servicos{
-   
-   background-color: #d1fadf;
-   margin-bottom: 3em;
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: -45px;
-   
-}
-.servicos-img{
+.servicos {
+    background-color: #d1fadf;
+    margin-bottom: 3em;
     display: grid;
-    flex-direction: column;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px; /* Corrigido */
+}
+
+.servicos-img {
+    display: grid;
     max-height: 50em;
     gap: 10px;
     margin-bottom: 3em;
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-left: -0em
+    margin-left: 0;
 }
 
+/* Bloco clicável */
+.bloco-clicavel {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+/* Zoom suave ao passar o mouse no bloco */
+.bloco-clicavel:hover {
+    transform: scale(1.02);
+}
+
+/* Estilização interna do conteúdo */
 .servicos-img__1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
-.servicos-img__1 a {
-    text-decoration: none;
-    color: #f26522; /* cor desejada para links */
+/* Imagens (ajuste se quiser limitar o tamanho) */
+.servicos-img__1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
-.servicos-img__1 h1,
-.servicos-img__1 p {
-    text-decoration: none;
-    color: #f26522; /* cor desejada para títulos e textos */
+/* Títulos e parágrafos */
+.bloco-clicavel h1,
+.bloco-clicavel p {
     margin: 0.5em 0;
+    color: #000000;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* Efeito de zoom ao passar o mouse individualmente nos textos */
+.bloco-clicavel h1:hover,
+.bloco-clicavel p:hover {
+    transform: scale(1.1);
 }

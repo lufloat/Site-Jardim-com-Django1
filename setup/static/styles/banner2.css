@@ -47,7 +47,7 @@
   }
   
   .laranja {
-    background-color: #e26b12;
+    background-color: #ffffff;
     color: white;
     border: none;
   }
@@ -59,5 +59,5 @@
   }
   
   .transparente:hover {
-    background-color: #e26b12;
+    background-color: #ffffff;
   }
