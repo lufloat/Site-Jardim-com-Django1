@@ -13,7 +13,7 @@ Fique à vontade para enviar sugestões e ajudar a tornar esse site ainda melhor
 
 ## 📸 Preview do projeto
 
-![Print do site](galeria/jardim.GIF)
+![Print do site](galeria/Jardim.GIF)
 
 ---
 
